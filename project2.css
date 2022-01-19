@@ -1,0 +1,188 @@
+            * {
+                border: 0px;
+                margin: 0px;
+            }
+            
+            .section {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            
+            #header {
+                color: white;
+                background: #e74c3c;
+            }
+            
+            .row {
+                justify-content: space-between;
+            }
+            
+            #menu {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            #menu li {
+                display: inline-block;
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            #menu li a {
+                color: white;
+                padding: 15px 10px;
+                display: block;
+                text-decoration: none;
+            }
+            
+            #menu li a:hover {
+                background: #c0392b;
+            }
+            
+            #banner {
+                background: url(img/banner.jpg) no-repeat 0 0;
+                background-size: cover;
+            }
+            
+            .banner-title .title {
+                font-size: 30px;
+                background-color: rgba(255, 255, 255, 0.8);
+                margin: 0px;
+                display: inline-block;
+                width: 95%;
+            }
+            
+            #banner .container .row .col-lg-6 p {
+                background-color: rgba(231, 76, 60, 0.8);
+                color: white;
+                font-size: 18px;
+                margin: 0px;
+                width: 90%px;
+            }
+            
+            #banner .container .row {
+                padding-top: 125px;
+                padding-bottom: 50px;
+            }
+            
+            .service-head {
+                text-align: center;
+            }
+            
+            .section .row {
+                justify-content: center;
+            }
+            
+            .section .row .col-2 hr {
+                background-color: rgba(231, 76, 60, 1);
+                border: solid rgba(231, 76, 60, 1);
+                text-align: center;
+                justify-content: center;
+            }
+            
+            .service-box {
+                text-align: center;
+            }
+            
+            .service-box i.fa {
+                font-size: 70px;
+                color: #e74c3c;
+            }
+            
+            #testimonial {
+                color: white;
+                background: url(img/testimonial-bg.jpg) no-repeat 0 0;
+                position: relative;
+                background-size: cover;
+                padding: 50px 0;
+                background-color: rgba(52, 73, 94, 0.9);
+                margin-bottom: 20px;
+            }
+            
+            #testimonial:before {
+                background: rgba(52, 73, 94, 0.3);
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            
+            #testimonial .container .row .col-lg-6 {
+                text-align: center;
+                padding: 0%;
+                margin: 0%;
+            }
+            
+            .testimonial-head {
+                text-align: center;
+                padding-top: 0px;
+                padding-bottom: 30px;
+            }
+            
+            .recent-newses .recent-head {
+                text-align: center;
+            }
+            
+            .recent-newses .recent-news {
+                margin-bottom: 10px;
+            }
+            
+            .recent-newses .hrtag {
+                justify-content: center;
+                vertical-align: middle;
+            }
+            
+            .recent-newses .recent-news img {
+                width: 100%;
+            }
+            
+            .recent-newses .recent-news .col-md-3 h3 {
+                color: #e74c3c;
+                padding-top: 10px;
+            }
+            
+            #lern-more {
+                color: #e74c3c;
+            }
+            
+            .recent-newses .hrtag .col-2 hr {
+                background-color: rgba(231, 76, 60, 1);
+                border: solid rgba(231, 76, 60, 1);
+                text-align: center;
+                justify-content: center;
+            }
+            
+            #bottom {
+                background-color: #34495e;
+                color: white;
+                padding: 20px 0;
+            }
+            
+            #bottom .latest-news {
+                list-style: none;
+                padding-left: 0px;
+            }
+            
+            #bottom .latest-news li {
+                color: white;
+            }
+            
+            #bottom .latest-news li a {
+                color: white;
+                padding-left: 15px;
+                text-decoration: none;
+            }
+            
+            #bottom .row .col-md-4 {
+                margin-top: 20px;
+                margin-bottom: 1px;
+            }
+            
+            #hrbottom {
+                background-color: rgb(255, 255, 255);
+                border: #fff;
+                width: 15%;
+                height: 3px;
+            }
